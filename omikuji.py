@@ -1,10 +1,9 @@
 import random
 
-omikuji = ['大吉', '吉', '凶', '末吉', '大凶']
+omikuji = ['大吉', '吉', '凶', '末吉', '大凶','中吉']
 
-print(omikuji[random.randint(0, 4)]
+# print(omikuji[random.randint(0, 4)]
 
-#  または
-# idx=random.randint(0, 2)
-#
-# print(omikuji[idx])
+idx=random.randint(0, len(omikuji)-1)
+
+print(omikuji[idx])
